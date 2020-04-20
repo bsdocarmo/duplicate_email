@@ -52,7 +52,7 @@ def remove_duplicates(head):
 linked_list = LinkedList([["teste1@live.com", "Olá, teste2"], ["teste2@gmail.com", "Prezado, teste1"],
                           ["teste1@live.com", "Olá, teste2"], ["teste3@live.com", "Olá, teste1 e teste2"],
                           ["teste2@gmail.com", "Prezado, teste1"], ["teste1@live.com", "Olá, teste2"],
-                          ["teste2@safada.com", "Prezado, repetiu uns emails"]])
+                          ["teste2@safada.com", "Prezado, repetiu alguns emails"]])
 print(linked_list)
 remove_duplicates(linked_list.head)
 print(linked_list)
